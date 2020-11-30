@@ -4,4 +4,4 @@ User chooses level for 'X' and 'O', then watches them play.
 Expert level is smart and always chooses the best possible move.
 
 
-![alt text](tictactoe_image.JPG)
+![alt text](tictactoe_img.JPG)
