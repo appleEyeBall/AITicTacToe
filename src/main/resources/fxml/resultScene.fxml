@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ResultSceneController">
+   <children>
+      <Label fx:id="winnerTextLabel" layoutX="187.0" layoutY="345.0" text="X">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="wonLabel" layoutX="288.0" layoutY="416.0" text="won">
+         <font>
+            <Font name="Marlett" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstPlayerLabel" layoutX="62.0" layoutY="30.0" text="X">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="30.0" text="Played first">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="trophyImg" fitHeight="275.0" fitWidth="263.0" layoutX="214.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
